@@ -1,4 +1,12 @@
 {
-	"calam": "https://calamitymod.fandom.com/wiki/Special:Search?search=%q",
-	"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%q"
+	"calam": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+	"cw": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+	"cg": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+	"mc": "https://mine.ly/%s",
+	"mly": "https://mine.ly/%s",
+	"minely": "https://mine.ly/%s",
+	"terraria": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+	"tg": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+	"tw": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+	"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%s"
 }
