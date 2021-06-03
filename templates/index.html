@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device_width, initial_scale=1.0">
 	<title>Not DDG Bangs</title>
 	<link href="/static/index.css" rel='stylesheet'>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
 </head>
 <body>
 	<h1>Not DuckDuckGo Bangs</h1>
@@ -14,11 +15,14 @@
 		<input type="text" name=q placeholder="!tg demon eye">
 		<input type="submit" value="Search">
 	</form>
-	<h2>FAQ</h2>
+	<h2><a onclick="document.getElementById('faq').style = 'visibility:visible;'">FAQ</a></h2>
+	<div id=faq>
 	<h3>What is this?</h3>
 	<p>its like duckduckgo but only the bangs</p>
 	<h3>y tho</h3>
 	<p>i want to add bangs to ddg but it has restrictions on what gets added</p>
+	<h3>what even are these "bangs" you speak of</h3>
+	<p><a href="https://duckduckgo.com/bang">let DuckDuckGo tell you!</a></p>
 	<h3>what bangs do you have</h3>
 	<p><a href=/bangs>click here to find out</a></p>
 	<h3>can i see your source code? maybe run it myself?</h3>
@@ -26,6 +30,6 @@
 	<a href="https://heroku.com/deploy?template=https://github.com/Vresod/not_ddg_bangs">
 		<img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 	</a>
-
+	</div>
 </body>
 </html>

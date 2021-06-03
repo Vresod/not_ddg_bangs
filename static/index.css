@@ -1,19 +1,41 @@
 html {
 	background-color: #333;
+	text-align: center;
+}
+
+* {
 	color: #eee;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	text-align: center;
+}
+
+#faq {
+	visibility: hidden;
+}
+
+input[type="text"], input[type="submit"] {
+	font-size: 1em;
+	background-color: #444;
+	border: none;
+	padding: 0.5em;
+	height: 100%;
 }
 
 input[type="text"] {
 	text-align: left;
-	font-size: 1em;
+	width: 50%;
+}
+
+input[type="submit"]:hover {
+	background-color: #555;
 }
 
 ul {
 	text-align: left;
 }
 
+a {
+	cursor: pointer;
+}
 
 a:link, a:visited {
 	color: cadetblue;
