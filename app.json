@@ -1,0 +1,6 @@
+{
+	"name": "Not DDG Bangs",
+	"description": "python web app to allow custom duckduckgo-like bangs",
+	"repository": "https://github.com/Vresod/not_ddg_bangs",
+	"keywords": ["python", "flask", "duckduckgo","bangs"]
+}
