@@ -13,6 +13,8 @@ def search():
 	extracted = extra.extract_bang(search,bangs)
 	if not extracted:
 		return redirect(f'https://duckduckgo.com/?q={search}'), 307
+	if extracted[1] == search:
+		return redirect(extra.get_root(bangs[extracted[0]])), 307
 	return redirect(f'{bangs[extracted[0]] % extracted[1]}')
 
 @app.route('/raw_bangs',methods=['GET'])
