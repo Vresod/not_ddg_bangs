@@ -15,13 +15,17 @@ def search():
 		return redirect(f'https://duckduckgo.com/?q={search}'), 307
 	return redirect(f'{bangs[extracted[0]] % extracted[1]}')
 
-@app.route('/bangs',methods=['GET'])
+@app.route('/raw_bangs',methods=['GET'])
 def get_bangs():
 	return bangs
 
 @app.route('/',methods=['GET'])
 def root():
 	return render_template('index.html')
+
+@app.route('/bangs',methods=['GET'])
+def view_bangs():
+	return render_template('bangs.html',bangs=bangs)
 
 if __name__ == "__main__":
 	app.run(host='0.0.0.0', port=8000)

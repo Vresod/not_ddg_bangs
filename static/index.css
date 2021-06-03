@@ -9,3 +9,23 @@ input[type="text"] {
 	text-align: left;
 	font-size: 1em;
 }
+
+ul {
+	text-align: left;
+}
+
+
+a:link, a:visited {
+	color: cadetblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: cyan;
+	text-decoration: none;
+}
+
+a:active {
+	color: blue;
+	text-decoration: none;
+} 
