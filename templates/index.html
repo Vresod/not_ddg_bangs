@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF_8">
+	<meta charset="UTF-8">
 	<meta http_equiv="X_UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device_width, initial_scale=1.0">
 	<title>Not DDG Bangs</title>
@@ -30,6 +30,18 @@
 	<a href="https://heroku.com/deploy?template=https://github.com/Vresod/not_ddg_bangs">
 		<img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 	</a>
+	</div>
+	<div id=bottom>
+		{% if firefox %}
+		<p>Firefox &#128526;</p>
+		{% else %}
+		<p>Not Firefox &#129326;</p>
+		{% endif %}
+		{% if linux %}
+		<p>Linux &#128526;</p>
+		{% else %}
+		<p>Not Linux &#129326;</p>
+		{% endif %}
 	</div>
 </body>
 </html>

@@ -23,7 +23,7 @@ def get_bangs():
 
 @app.route('/',methods=['GET'])
 def root():
-	return render_template('index.html')
+	return render_template('index.html',firefox=request.user_agent.browser == "firefox",linux=request.user_agent.platform == "linux")
 
 @app.route('/bangs',methods=['GET'])
 def view_bangs():
