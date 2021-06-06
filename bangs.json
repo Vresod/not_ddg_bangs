@@ -8,5 +8,8 @@
 	"terraria": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
 	"tg": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
 	"tw": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
-	"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%s"
+	"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%s",
+	"mw": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
+	"mg": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
+	"vl": "https://vimm.net/vault/?p=list&q=%s"
 }
