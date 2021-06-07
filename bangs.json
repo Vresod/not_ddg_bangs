@@ -11,5 +11,6 @@
 	"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%s",
 	"mw": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
 	"mg": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
-	"vl": "https://vimm.net/vault/?p=list&q=%s"
+	"vl": "https://vimm.net/vault/?p=list&q=%s",
+	"tn": "https://yal.cc/r/terranion/?q=%s"
 }
