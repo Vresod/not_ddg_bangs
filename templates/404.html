@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http_equiv="X_UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device_width, initial_scale=1.0">
+	<title>Not DDG Bangs</title>
+	<link href="/static/index.css" rel='stylesheet'>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+	<h1>Not DuckDuckGo Bangs</h1>
+	<p>The page you tried to go to, {{ request.base_url }}, is not a valid url.</p>
+	<p>Try re-typing the url, or <a href='/'>go to the main page</a></p>
+</body>
+</html>

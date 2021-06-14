@@ -6,6 +6,7 @@ html, body {
 * {
 	color: #eee;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 4px;
 }
 
 #faq {
@@ -50,4 +51,14 @@ a:hover {
 a:active {
 	color: blue;
 	text-decoration: none;
+}
+
+#bad_search {
+	display: block;
+	/* colors stolen directly from duckduckgo */
+	color: #de5833;
+	background: #f7d5cc;
+	margin: .5em auto 1.25em;
+	padding: 1em;
+	max-width: 590px;
 }

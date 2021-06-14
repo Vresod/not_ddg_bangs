@@ -15,6 +15,9 @@
 		<input type="text" name=q placeholder="!tg demon eye">
 		<input type="submit" value="Search">
 	</form>
+	{% if bad_search %}
+	<span id=bad_search>Empty search</span>
+	{% endif %}
 	<h2><a onclick="document.getElementById('faq').style = 'visibility:visible;'">FAQ</a></h2>
 	<div id=faq>
 	<h3>What is this?</h3>
