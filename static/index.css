@@ -13,12 +13,13 @@ html, body {
 	visibility: hidden;
 }
 
-input[type="text"], input[type="submit"] {
+form * {
 	font-size: 1em;
 	background-color: #444;
 	border: none;
 	padding: 0.5em;
 	height: 100%;
+	margin: 0.1em;
 }
 
 input[type="text"] {
@@ -28,6 +29,10 @@ input[type="text"] {
 
 input[type="submit"]:hover {
 	background-color: #555;
+	cursor: pointer;
+}
+input[type=checkbox] {
+	cursor: pointer;
 }
 
 ul {
