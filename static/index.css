@@ -31,16 +31,17 @@ input[type="submit"]:hover {
 	background-color: #555;
 	cursor: pointer;
 }
-input[type=checkbox] {
+
+a, input[type=checkbox] {
 	cursor: pointer;
+}
+
+label {
+	user-select: none;
 }
 
 ul {
 	text-align: left;
-}
-
-a {
-	cursor: pointer;
 }
 
 a:link, a:visited {
