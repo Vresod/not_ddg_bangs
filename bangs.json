@@ -1,20 +1,28 @@
 {
-	"calam": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
-	"cw": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
-	"cg": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
-	"mc": "https://mine.ly/%s",
-	"mly": "https://mine.ly/%s",
-	"minely": "https://mine.ly/%s",
-	"terraria": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
-	"tg": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
-	"tw": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
-	"terrariawiki": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
-	"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%s",
-	"hiddeninthesand": "https://www.hiddeninthesand.com/wiki/index.php?search=%s",
-	"mw": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
-	"minecraftwiki": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
-	"mg": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
-	"vl": "https://vimm.net/vault/?p=list&q=%s",
-	"tn": "https://yal.cc/r/terranion/?q=%s",
-	"plb": "https://polcompball.fandom.com/wiki/Special:Search?query=%s"
+	"bangs": {
+		"calam": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+		"cw": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+		"cg": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+		"mc": "https://mine.ly/%s",
+		"mly": "https://mine.ly/%s",
+		"minely": "https://mine.ly/%s",
+		"terraria": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+		"tg": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+		"tw": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+		"terrariawiki": "https://terraria.fandom.com/wiki/Special:Search?search=%s",
+		"hits": "https://www.hiddeninthesand.com/wiki/index.php?search=%s",
+		"hiddeninthesand": "https://www.hiddeninthesand.com/wiki/index.php?search=%s",
+		"mw": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
+		"minecraftwiki": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
+		"mg": "https://minecraft.fandom.com/wiki/Special:Search?search=%s",
+		"vl": "https://vimm.net/vault/?p=list&q=%s",
+		"tn": "https://yal.cc/r/terranion/?q=%s",
+		"pcb": "https://polcompball.miraheze.org/wiki/Special:Search?query=%s"
+	},
+	"shortcuts": {
+		"w": "https://%s.wikipedia.org/wiki/Special:Search?search=%s",
+		"wikipedia": "https://%s.wikipedia.org/wiki/Special:Search?search=%s",
+		"fandom": "https://%s.fandom.com/wiki/Special:Search?search=%s",
+		"f": "https://%s.fandom.com/wiki/Special:Search?search=%s"
+	}
 }
