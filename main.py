@@ -36,7 +36,7 @@ def root():
 
 @app.route('/bangs',methods=['GET'])
 def view_bangs():
-	return render_template('bangs.html',bangs=bangs)
+	return render_template('bangs.html',bangs=bangs['bangs'])
 
 @app.errorhandler(404)
 def page_not_found(e):
