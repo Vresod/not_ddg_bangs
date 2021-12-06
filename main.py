@@ -14,12 +14,16 @@ def search():
 	engine = request.args.get('engine') or 'DuckDuckGo'
 	ddg_if_bang = bool(request.args.get('dib'))
 	if not search: return redirect(url_for('root',e=5),code=307)
-	extracted = extra.extract_bang(search,bangs['bangs'],bangs['shortcuts'])
-
+	extracted = extra.extracted_bang.from_str(search,bangs['bangs'],bangs['shortcuts'])
+	print(extracted)
 	# for DIB
 	if ddg_if_bang and engine != 'DuckDuckGo' and search.startswith('!') and not extracted:
 		if json.loads(requests.get(f"https://api.duckduckgo.com/?q={search}&format=json&no_redirect=1").content).get('Redirect'):
 			return redirect(engines['DuckDuckGo'] % search)
+	if extracted.term == f"!{extracted.bang}":
+		return redirect(extra.get_root(f'{bangs["bangs"][extracted.bang] % extracted.term}'),code=307)
+	if extracted.shortcut and extracted.term == '':
+		return redirect(extra.get_root(f'{bangs["shortcuts"][extracted.bang] % (extracted.shortcut,extracted.term)}'),code=307)
 	if extracted.shortcut:
 		return redirect(f'{bangs["shortcuts"][extracted.bang] % (extracted.shortcut,extracted.term)}',code=307)
 	if extracted.bang:
