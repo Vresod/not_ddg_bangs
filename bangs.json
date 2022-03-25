@@ -1,8 +1,8 @@
 {
 	"bangs": {
-		"calam": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
-		"cw": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
-		"cg": "https://calamitymod.fandom.com/wiki/Special:Search?search=%s",
+		"calam": "https://calamitymod.wiki.gg/index.php?search=%s",
+		"cw": "https://calamitymod.wiki.gg/index.php?search=%s",
+		"cg": "https://calamitymod.wiki.gg/index.php?search=%s",
 		"mc": "https://mine.ly/%s",
 		"mly": "https://mine.ly/%s",
 		"minely": "https://mine.ly/%s",
